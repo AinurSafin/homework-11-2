@@ -3,5 +3,7 @@ def capital_letters():
     return letters.upper()
     '''Функция которая возвращает все заглавные буквы'''
 
-def letters():
-    pass
+def uppercase_first():
+    first_letters = input()
+    return first_letters.title()
+    '''Функция которая возвращает заглавные первые буквы'''
